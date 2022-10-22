@@ -1,2 +1,2 @@
 # smooth-pause
-Smoothly pause youtube videos
+Browser extension for smoothly pausing youtube videos
