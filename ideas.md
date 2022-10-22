@@ -1,0 +1,4 @@
+-let user choose time with a slider
+-let user choose color inside of pause button
+-make it click-pausable
+-have an animation indicating volume

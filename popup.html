@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Smooth Pause</title>
+  <script src="content.js"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <div>
+    <input type="range" id="durationslider" name="durationslider"
+         min="100" max="5000" step="100">
+    <label for="durationslider">Fade Duration</label><br>
+    <button type="button" id="submitduration" name="button">Submit</button>
+    <script src="durationchanger.js"></script>
+  </div>
+  <br>
+  <div>
+    <input type="text" id="buttoncolor" name="buttoncolor">
+    <label for="buttoncolor">Button Color</label><br>
+    <button type="button" id="button" name="button">Submit</button>
+    <script src="colorchanger.js"></script>
+  </div>
+  <p id="colordisplay">Current Color</p>
+</body>
